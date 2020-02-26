@@ -1,7 +1,7 @@
 # Creative_Coding_FS2020
 Repo für den CC Kurs 2020
 
-##Aufgabe:
+## Aufgabe:
 
 Recherche von einem Kunstwerk / Installation / Design
 In ca 2 Minuten das Werk der Klasse vorstellen, dabei ungefähr folgendes beantworten:
