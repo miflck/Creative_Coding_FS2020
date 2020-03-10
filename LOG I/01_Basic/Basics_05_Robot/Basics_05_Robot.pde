@@ -1,5 +1,4 @@
 /*
-HKB Massive Interfaces Basics
  Created by Michael Flueckiger
  
  */
