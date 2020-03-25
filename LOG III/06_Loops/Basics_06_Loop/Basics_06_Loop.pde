@@ -1,5 +1,4 @@
 /*
-HKB CAS Data Visualization 2017
 Einführung
 Michael Flueckiger
 */
