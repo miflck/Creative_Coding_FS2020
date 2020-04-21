@@ -1,16 +1,19 @@
-/*
- Created by Michael Flueckiger
- 
- */
+int posX=0;
+int posY=0;
+
+int speedX=5;
+int speedY=3;
+
+
 void setup() {
   size(500, 500);
- 
 }
 
-void draw(){
-
+void draw() {
+  posX+=speedX;
+  posY+=speedY;
  pushMatrix();
- translate(mouseX,mouseY);
+ translate(posX,posY);
   // Head
 triangle(100, 100, 150, 30, 200, 100);
 fill(100, 100, 100);
@@ -43,4 +46,14 @@ line(220, 230, 250, 150);
 line(120, 310, 100, 400);
 line(180, 310, 200, 400);
 popMatrix();
+  
+  if(posX>width || posX<0){  //  || = or
+      speedX*=-1;
+  }
+  
+  if (posY>height ||  posY<0) {
+    speedY*=-1;
+  }
+
+  
 }
